@@ -185,7 +185,7 @@ h2 {
 /*====== Drop down 3 =======*/
 #main-nav ul ul {
   position: absolute;
-  display: inline-block;
+  display: none;
   width: 200px;
   background-color: #65571e;
   color: #fff;
@@ -214,4 +214,87 @@ h2 {
 
 #main-nav ul ul li a:hover {
   background-color: #ffb2f4;
+}
+
+/*========== Fourth Navbar ==========*/
+#nav-head {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 300px;
+  background-color: #e491fc;
+}
+
+#nav-head a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+#nav-head ul li {
+  position: relative;
+  display: inline-block;
+}
+
+#nav-head ul li a {
+  display: block;
+  padding: 13px 15px;
+  transition: all linear 0.4s;
+}
+
+#nav-head ul li a:hover {
+  background-color: #7a7672;
+  color: #121a35;
+}
+
+#nav-head label {
+  margin-left: 58px;
+}
+
+#nav-head label button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all linear 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  color: #78767b;
+  text-transform: capitalize;
+}
+#nav-head label button:hover {
+  background-color: #9d6fe3;
+  color: #fff;
+}
+/*========== Dropdown ==========*/
+#nav-head ul ul {
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 48px;
+  display: none;
+  background-color: #e491fc;
+}
+
+#nav-head ul ul li {
+  display: block;
+  text-align: center;
+}
+
+#nav-head ul li:hover ul {
+  display: block;
+}
+
+#nav-head ul li:hover a {
+  background-color: #78767b;
+}
+
+#nav-head ul li:hover li a {
+  background-color: #e491fc;
+}
+
+#nav-head ul ul li a:hover {
+  background-color: #78767b;
 }
