@@ -56,6 +56,7 @@ h2 {
   background-color: #cc96e9;
 }
 
+/*========Dropdown========*/
 #main-menu ul ul {
   position: absolute;
   left: 0;
@@ -84,4 +85,133 @@ h2 {
 
 #main-menu ul ul li a:hover {
   color: #fff;
+}
+
+/*====== Second NavBar part start =======*/
+#nav {
+  background-color: #36406d;
+  margin: 250px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav a {
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+#nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+#nav ul li a {
+  display: block;
+  padding: 13px 18px;
+  transition: all linear 0.3s;
+}
+
+#nav ul li a:hover {
+  background-color: #7a6cab;
+}
+
+/*==== dropdown =====*/
+#nav ul ul {
+  width: 200px;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 44px;
+  background-color: #36406d;
+}
+
+#nav ul li:hover ul {
+  display: block;
+}
+
+#nav ul ul li {
+  display: block;
+  text-align: center;
+}
+
+#nav ul li:hover a {
+  background-color: #7a6cab;
+}
+
+#nav ul li:hover li a {
+  background-color: #36406d;
+}
+
+#nav ul ul li a:hover {
+  background-color: #7a6cab;
+}
+
+/*=========== Third Navbar part start ==============*/
+
+#main-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 300px;
+  background-color: #65571e;
+}
+
+#main-nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#main-nav ul li {
+  position: relative;
+  display: inline-block;
+}
+
+#main-nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  transition: all linear 0.3s;
+}
+
+#main-nav ul li a:hover {
+  background-color: #ffb2f4;
+}
+
+/*====== Drop down 3 =======*/
+#main-nav ul ul {
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  background-color: #65571e;
+  color: #fff;
+  left: 0;
+  top: 53px;
+}
+
+#main-nav ul li:hover ul {
+  display: block;
+}
+
+#main-nav ul ul li {
+  display: block;
+  text-align: center;
+}
+
+#main-nav ul li:hover a {
+  background-color: #ffb2f4;
+  color: #65571e;
+}
+
+#main-nav ul li:hover li a {
+  background-color: #65571e;
+  color: #fff;
+}
+
+#main-nav ul ul li a:hover {
+  background-color: #ffb2f4;
 }
